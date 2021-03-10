@@ -296,6 +296,7 @@ module.exports = require("vue-router");
 
 // load the styles
 var content = __webpack_require__(18);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
@@ -412,6 +413,7 @@ function toComment(sourceMap) {
 
 // load the styles
 var content = __webpack_require__(20);
+if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
