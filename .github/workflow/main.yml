@@ -52,8 +52,8 @@ jobs:
         password: ${{ secrets.PASSWORD }} 
         port: ${{ secrets.PORT }} 
         script: |
-          cd /root/pm2-test
-          wget https://github.com/lipengzhou/realworld-nuxtjs/releases/latest/download/release.tgz
+          cd /home/realworld-nuxtJs
+          wget https://github.com/db324246/realworld-nuxtjs/releases/latest/download/release.tgz
           -O release.tgz 
           tar zxvf release.tgz 
           npm install --production 
