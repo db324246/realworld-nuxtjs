@@ -1,0 +1,9 @@
+{
+  "app": [
+    {
+      "name": "realworld-nuxt",
+      "script": "npm",
+      "args": "start"
+    }
+  ]
+}

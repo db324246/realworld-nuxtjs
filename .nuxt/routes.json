@@ -1,0 +1,56 @@
+[
+  {
+    "name": "editor",
+    "path": "/editor",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\editor\\\\index.vue",
+    "chunkName": "pages/editor/index",
+    "_name": "_0df4c988"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\login\\\\index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_cf93afbc"
+  },
+  {
+    "name": "settings",
+    "path": "/settings",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\settings\\\\index.vue",
+    "chunkName": "pages/settings/index",
+    "_name": "_baea51f4"
+  },
+  {
+    "name": "article-id",
+    "path": "/article/:id?",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\article\\\\_id.vue",
+    "chunkName": "pages/article/_id",
+    "_name": "_24f0bfdd"
+  },
+  {
+    "name": "profile-username",
+    "path": "/profile/:username?",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\profile\\\\_username.vue",
+    "chunkName": "pages/profile/_username",
+    "_name": "_05546585"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_00455d49"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\login\\\\index.vue",
+    "_name": "_cf93afbc"
+  },
+  {
+    "name": "article-editor",
+    "path": "/editor/:id",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\demos\\\\bigQianduan\\\\fed-e-task-03\\\\realworld-nuxtjs\\\\pages\\\\editor\\\\index.vue",
+    "_name": "_0df4c988"
+  }
+]
