@@ -58,4 +58,4 @@ jobs:
             wget https://github.com/db324246/realworld-nuxtjs/releases/latest/download/release.tgz -O release.tgz 
             tar zxvf release.tgz 
             npm install
-            pm2 start 0
+            pm2 restart 0

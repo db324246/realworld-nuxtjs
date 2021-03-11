@@ -44,3 +44,10 @@ export const unfollow = username => {
     method: 'delete'
   })
 }
+
+export const userInfo = username => {
+  return request({
+    url: `/api/profiles/${username}`,
+    method: 'get'
+  })
+}

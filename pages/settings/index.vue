@@ -55,7 +55,6 @@ export default {
   },
   created() {
     this.userForm = JSON.parse(JSON.stringify(this.user))
-    console.log(this.userForm)
   },
   methods: {
     handleSubmit() {

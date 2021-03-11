@@ -43,3 +43,26 @@ export const getArticle = slug => {
     method: 'get'
   })
 }
+
+export const createArticle = data => {
+  return request({
+    url: `/api/articles`,
+    method: 'post',
+    data
+  })
+}
+
+export const updateArticle = (slug, data) => {
+  return request({
+    url: `/api/articles/${slug}`,
+    method: 'put',
+    data
+  })
+}
+
+export const deleteArticle = slug => {
+  return request({
+    url: `/api/articles/${slug}`,
+    method: 'delete'
+  })
+}

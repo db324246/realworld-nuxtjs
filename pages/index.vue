@@ -47,11 +47,11 @@
           <div class="article-preview" v-for="a in articles" :key="a.slug">
             <div class="article-meta">
               <nuxt-link :to="{
-                path: `profile/${a.author.username}`
+                path: `/profile/${a.author.username}`
               }"><img :src="a.author.image" /></nuxt-link>
               <div class="info">
                 <nuxt-link :to="{
-                path: `profile/${a.author.username}`
+                path: `/profile/${a.author.username}`
               }" class="author">{{a.author.username}}</nuxt-link>
                 <span class="date">{{a.createdAt}}</span>
               </div>
@@ -60,7 +60,7 @@
               </button>
             </div>
             <nuxt-link :to="{
-              path: `article/${a.slug}`
+              path: `/article/${a.slug}`
             }" class="preview-link">
               <h1>{{a.title}}</h1>
               <p>{{a.description}}</p>
@@ -117,7 +117,7 @@ export default {
     const tab = query.tab || 'global_feed'
     const offset = (page - 1) * limit
 
-    const articleListApi = tab === 'your_feed' && store.state.user ? articleFeed : articleList
+    const articleListApi = (tab === 'your_feed' && store.state.user) ? articleFeed : articleList
 
     const [ articleRes, tagRes ] = await Promise.all([
       articleListApi({ offset, limit, tag }),
