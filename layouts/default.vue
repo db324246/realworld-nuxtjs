@@ -3,7 +3,7 @@
     <!-- header  -->
     <nav class="navbar navbar-light">
       <div class="container">
-        <nuxt-link class="navbar-brand" to="/">conduit</nuxt-link>
+        <nuxt-link class="navbar-brand" to="/">conduit --- 彬彬大魔王</nuxt-link>
         <ul class="nav navbar-nav pull-xs-right">
           <li class="nav-item">
             <!-- Add "active" class when you're on that page" -->
@@ -22,7 +22,7 @@
           <li v-if="user" class="nav-item">
             <nuxt-link class="nav-link" to="/profile">
               <img class="user-pic" :src="user.image">
-              戴彬大魔王
+              {{user.username}}
             </nuxt-link>
           </li>
           <template v-else>
